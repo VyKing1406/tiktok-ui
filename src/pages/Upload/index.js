@@ -1,13 +1,5 @@
-import Header from '~/components/Layout/DefaultLayout/Header';
 function UpLoad() {
-    return (
-        <div>
-            <Header />
-            <div className="content">
-                <h2>UpLoad Page</h2>
-            </div>
-        </div>
-    );
+    return <h2>UpLoad Page</h2>;
 }
 
 export default UpLoad;
